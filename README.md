@@ -1,6 +1,6 @@
 # Shiba CLI
 
-Command-line interface (CLI) to display a Shiba Inu whenever needed.
+Command-line interface (CLI) to display a Shiba Inu whenever needed, by just running `shiba` on the terminal/console.
 
 <p align="center">
   <img src="https://cdn.shibe.online/shibes/94cb90933e179375608c5c58b3d8658ef136ad3c.jpg" height="350" width="auto" />
