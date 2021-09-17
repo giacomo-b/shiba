@@ -10,6 +10,37 @@ Command-line interface (CLI) to display a *random* Shiba Inu whenever needed, by
 
 > **Note:** Pre-compiled binaries will be available soon. Currently, you need to compile the program on your machine. Fortunately, Rust makes this process extremely easy.
 
+### 1. Install Rust
+
+If you don't have [Rust](https://www.rust-lang.org/) installed on your system, you will need to install it.
+
+<details>
+<summary>Linux, macOS, and Unix-based systems</summary>
+- 	Run the following in your terminal
+
+	```console
+	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+	```
+- Follow the on-screen instructions
+</details>
+
+<details>
+<summary>Windows</summary>
+- 	Download the installer from [here](https://www.rust-lang.org/tools/install)
+- 	Run the installer and follow the on-screen instructions
+</details>
+
+### 2. Install Shiba
+
+```console
+cargo install --git https://github.com/giacomo-b/shiba.git
+```
+
+You should be able to just run `shiba` from anywhere on your system, and that should present you with a new picture every time.
+
+<br/><br/>
+## How to build manually (alternative to the process above)
+
 **TL;DR:** compile with Rust and move the binary/executable to a folder in your path.
 
 ### 1. Install Rust
