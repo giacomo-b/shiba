@@ -69,7 +69,7 @@ You should be able to just run `shiba` from anywhere on your system, and that sh
 
 Why not?
 
-## How to build manually
+## Build manually
 
 **TL;DR:** compile with Rust and move the binary/executable to a folder in your path.
 
