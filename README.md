@@ -1,9 +1,30 @@
-# Shiba CLI
-
-Command-line interface (CLI) to display a *random* Shiba Inu whenever needed, by just running `shiba` on the terminal/console.
+<h1 align="center">
+  <a href="https://github.com/giacomo-b/shiba"><img src="https://cdn.shibe.online/shibes/94cb90933e179375608c5c58b3d8658ef136ad3c.jpg" alt="shiba" width="300"></a>
+  <br>
+  Shiba CLI
+</h1>
+<h4 align="center">Command-line interface (CLI) to display a random Shiba Inu whenever needed, by just running <em>shiba</em> on your terminal.</h4>
+<p align="center">
+  <a href="https://github.com/giacomo-b/shiba">
+    <img src="https://img.shields.io/badge/SO-MUCH-blue?style=for-the-badge"
+         alt="SoMuch">
+  </a>
+  <a href="https://github.com/giacomo-b/shiba">
+    <img src="https://img.shields.io/badge/SUCH-COOL-red?style=for-the-badge"
+         alt="SuchCool">
+  </a>
+  <a href="https://github.com/giacomo-b/shiba">
+    <img src="https://img.shields.io/badge/MUCH-WOW-green?style=for-the-badge"
+         alt="MuchWow">
+  </a>
+</p>
 
 <p align="center">
-  <img src="https://cdn.shibe.online/shibes/94cb90933e179375608c5c58b3d8658ef136ad3c.jpg" height="350" width="auto" />
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#how-does-it-work">How Does It Work?</a> •
+  <a href="#why">Why?</a> •
+  <a href="#build-manually">Build Manually</a> •
+  <a href="#todos">TODOs</a>
 </p>
 
 ## How to use
@@ -40,8 +61,15 @@ cargo install --git https://github.com/giacomo-b/shiba.git
 
 You should be able to just run `shiba` from anywhere on your system, and that should present you with a new picture every time.
 
-<br/><br/>
-## How to build manually (alternative to the process above)
+## How does it work?
+
+`shiba CLI` is based on [shibe.online](https://shibe.online/), which provides a free, public API to get random shibes.
+  
+## Why?
+
+Why not?
+
+## Build manually
 
 **TL;DR:** compile with Rust and move the binary/executable to a folder in your path.
 
@@ -115,14 +143,6 @@ set PATH=%PATH%;C:\your\path\here\
 </details>
 
 Now you should be able to just run `shiba` from anywhere on your system, and that should present you with a new picture every time.
-
-## How does it work?
-
-`shiba CLI` is based on [shibe.online](https://shibe.online/), which provides a free, public API to get random shibes.
-  
-## Why?
-
-Why not?
 
 ## TODOs
 
